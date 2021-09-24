@@ -13,7 +13,8 @@ pandas==1.3.2
 matplotlib==3.4.3  
 matplotlib-inline==0.1.2  
 scikit-learn==0.24.2  
-sklearn==0.0 
+sklearn==0.0  
+numpy==1.20.0  
 (dependencies for each library are not listed here)
 
 ## Structure
