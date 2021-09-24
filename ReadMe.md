@@ -28,6 +28,7 @@ shap==0.39.0
 2. **data.xlsx** - cleaned data set that is directly used for LGD modelling. 
 3. **eda.ipynb** - provides exploratory data analysis of the data set under consideration. 
 4. **models.ipynb** - lists a number of different congifurations of GBM regressors with various quantization techniques and three different three structures. Grid search is also used. 
+5. **json file** - provides the best performing model in json format that can easily be reused.
 
 ### Note 
 All the models were trained on CPU due to the small data set. However, one can consider using GPU to accelarate the learning process. The default parameters should be then changed accordingly. 
