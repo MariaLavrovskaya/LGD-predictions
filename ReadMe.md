@@ -6,6 +6,10 @@ This particular research project explores the potential of using ensembles class
 This project is based on the random sample of mortgage loans data. We first investigate the data itself, then build a number of GBM regressors and finally provide interpretabilty results based on Shapley values.
 This project is built around Catboost, an open-source gradient boosting on decision trees library developed by Yandex. The full set of results can be provided upon request. 
 
+By analysing different configurations, we conclude that GBM greatly enhances the generalisation performance of LGD modelling. The project findings highlight the importance of the preprocessing scheme, the chosen boosting principle and incorporated domain knowledge to the final quality of the model. The best performing GBM configuration shows a generalisation accuracy on the testing set nearly twice as high as that obtained with Ordinary Least Squares regression, which was used as baseline method. This project also demonstrates that Tree SHAP algorithm is a suitable method for interpretability of GBM models as in most cases it provides intuitive explanations.
+
+Symmetric tree growing policy with enforced monotonic constraints is shown to be the best model for our use case as it achieves the shortest distance in evaluation metrics between training and testing sets.
+
 ## Requirements 
 Python (we use 3.9.7)  
 catboost==0.26.1  
