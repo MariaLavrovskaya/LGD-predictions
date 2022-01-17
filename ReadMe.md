@@ -24,7 +24,7 @@ shap==0.39.0
 (dependencies for each library are not listed here)
 
 ## Structure
-1. **LGD_Data_pass.xlsx** - initial data set obtained from Santander UK.
+1. **LGD_Data_pass.xlsx** - initial data set obtained from Santander UK. The description can be found in here http://www.freddiemac.com/fmac-resources/research/pdf/user_guide.pdf
 2. **data.xlsx** - cleaned data set that is directly used for LGD modelling. 
 3. **eda.ipynb** - provides exploratory data analysis of the data set under consideration. 
 4. **models.ipynb** - lists a number of different congifurations of GBM regressors with various quantization techniques and three different three structures. Grid search is also used. 
